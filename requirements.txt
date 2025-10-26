@@ -1,20 +1,9 @@
-# Use PyTorch CPU wheels from the official PyTorch index
 --extra-index-url https://download.pytorch.org/whl/cpu
 
-# Core runtime
 streamlit>=1.22.0
+torch==2.2.0+cpu
+torchvision==0.17.0+cpu
 
-# PyTorch (CPU). Pick a stable version; the index line above ensures CPU wheel is used.
-torch==2.2.0
-
-# Optional: torchvision if you need it (CPU)
-torchvision==0.17.0
-
-# HTTP downloads for vocab/model assets
 requests>=2.28.0
-
-# Basic numerical package
 numpy>=1.24.0
-
-# Small extras that sometimes help
-typing-extensions
+typing-extensions>=4.5.0
