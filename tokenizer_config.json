@@ -1,0 +1,16 @@
+{
+  "special_tokens": {
+    "pad_token": "<pad>",
+    "sos_token": "<sos>",
+    "eos_token": "<eos>",
+    "unk_token": "<unk>"
+  },
+  "special_token_ids": {
+    "pad_id": 0,
+    "sos_id": 1,
+    "eos_id": 2,
+    "unk_id": 3
+  },
+  "vocab_size": 61,
+  "build_from": "train_only"
+}
